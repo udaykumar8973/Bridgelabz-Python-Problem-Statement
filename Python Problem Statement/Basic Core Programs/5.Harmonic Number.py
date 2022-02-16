@@ -12,7 +12,7 @@ def nthHarmonic(N):
 
 if __name__ == "__main__":
 
-    N = int(input("Enter the Number:"))  #
+    N = int(input("Enter the Number:"))  
     if N != 0:
         print("The Nth harmonic of '", N, "' is '", round(nthHarmonic(N), 2), "'.")
     else:
